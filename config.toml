@@ -4,6 +4,19 @@ languageCode = "pt-br"
 DefaultContentLanguage = "pt-br"
 theme        = "hello-friend-ng"
 paginate     = 10
+enableEmoji  = true
+
+
+[permalinks]
+  posts = "/posts/:title/"
+
+[author]
+  name = "Ivan Noleto"
+
+[taxonomies]
+    category = "blog"
+    tag      = "tags"
+    series   = "series"
 
 [params]
   dateform        = "Jan 2, 2006"
@@ -17,24 +30,32 @@ paginate     = 10
 
   enableSharingButtons = true
 
-[[params.social]]
+  [params.footer]
+    rss = true
+    author = true
+    trademark = true
+
+  [params.portrait]
+    path     = "https://avatars.githubusercontent.com/u/7867372"
+
+  [[params.social]]
   name = "github"
   url = "https://github.com/balaios"
 
-[[params.social]]
+  [[params.social]]
   name = "linkedin"
   url = "https://www.linkedin.com/in/ivan-noleto/"
 
-[[params.social]]
+  [[params.social]]
   name = "email"
   url = "mailto:ivannoleto@hotmail.com"
 
-[taxonomies]
-    category = "blog"
-    tag      = "tags"
-    series   = "series"
-
+  [menu]
   [[menu.main]]
-    identifier = "blog"
-    name       = "Blog"
-    url        = "/posts"
+    identifier = "about"
+    name       = "About"
+    url        = "about/"
+  [[menu.main]]
+    identifier = "posts"
+    name       = "Posts"
+    url        = "posts/"
