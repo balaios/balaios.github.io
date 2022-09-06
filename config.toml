@@ -1,0 +1,40 @@
+baseurl      = "noleto.tech"
+title        = "Ivan Noleto"
+languageCode = "pt-br"
+DefaultContentLanguage = "pt-br"
+theme        = "hello-friend-ng"
+paginate     = 10
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+
+  homeSubtitle = "Desenvolvedor backend - Python | Golang"
+
+  disableReadOtherPosts = false
+
+  enableSharingButtons = true
+
+[[params.social]]
+  name = "github"
+  url = "https://github.com/balaios"
+
+[[params.social]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/ivan-noleto/"
+
+[[params.social]]
+  name = "email"
+  url = "mailto:ivannoleto@hotmail.com"
+
+[taxonomies]
+    category = "blog"
+    tag      = "tags"
+    series   = "series"
+
+  [[menu.main]]
+    identifier = "blog"
+    name       = "Blog"
+    url        = "/posts"
