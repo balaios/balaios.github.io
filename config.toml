@@ -52,10 +52,10 @@ enableEmoji  = true
 
   [menu]
   [[menu.main]]
-    identifier = "about"
-    name       = "About"
-    url        = "about/"
+    identifier = "sobre"
+    name       = "Sobre"
+    url        = "sobre/"
   [[menu.main]]
-    identifier = "posts"
-    name       = "Posts"
-    url        = "posts/"
+    identifier = "postagens"
+    name       = "Postagens"
+    url        = "postagens/"
