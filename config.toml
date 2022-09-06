@@ -35,6 +35,10 @@ enableEmoji  = true
     author = true
     trademark = true
 
+  [params.logo]
+    logoMark     = ">"
+    logoText     = "olá"
+
   [params.portrait]
     path     = "https://avatars.githubusercontent.com/u/7867372"
 
