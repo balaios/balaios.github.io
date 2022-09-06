@@ -31,8 +31,6 @@ enableEmoji  = true
   enableSharingButtons = true
 
   [params.footer]
-    rss = true
-    author = true
     trademark = true
 
   [params.logo]
