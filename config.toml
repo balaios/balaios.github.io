@@ -21,8 +21,8 @@ enableEmoji  = true
 [params]
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
-  dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04"
+  dateformNum     = "02-01-2006"
+  dateformNumTime = "15:04 02-01-2006"
 
   homeSubtitle = "Desenvolvedor backend - Python | Golang"
 
