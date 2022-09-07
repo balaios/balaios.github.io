@@ -7,7 +7,7 @@ date = "06-09-2022"
 
 Graduando em Ciência da Computação, e apaixonado por Tecnologia.
 Possuo muita força de vontade o que me torna extremamente dedicado, adoro desafios, sou organizado e sei administrar meu tempo para garantir entregas no prazo e com qualidade.
-Sou dedicado e busco constantemente conhecimento dentro da área de tecnologia.
+Sou dedicado e busco conhecimento constantemente dentro da área de tecnologia.
 
 Domínio nas linguagens Python, Golang e banco de dados relacional. Utilizando FastAPI, Flask, Gin e gRPC.
 
